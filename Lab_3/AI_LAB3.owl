@@ -1,0 +1,553 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#"
+     xml:base="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:AI_Lab3_dlya_romi="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi/1.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Владеет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Владеет">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Владеет"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Владеет"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Владеет_техниками_стихии -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Владеет_техниками_стихии">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Владеет_техниками_стихии"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Является_членом"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Защищает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Защищает">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Защищает"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Защищает"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Имеет_звание -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Имеет_звание">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Имеет_звание"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Имеет_звание"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Является_членом -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Является_членом">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Является_членом"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Является_членом"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Мир_Ниндзя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Мир_Ниндзя"/>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Мир_Ниндзя"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Анбу -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Анбу">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ветер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ветер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ветра -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ветра">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Вода -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Вода">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Воды -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Воды">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Восьмихвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Восьмихвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Генин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Генин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Двухвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Двухвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Девятихвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Девятихвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Джонин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Джонин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Земли -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Земли">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Земля -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Земля">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Каге -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Каге">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Камня -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Камня">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+        <Владеет rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Трёххвостый"/>
+        <Защищает rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Земли"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Листа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Листа">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+        <Владеет rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Девятихвостый"/>
+        <Защищает rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Огня"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Молнии -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Молнии">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Молния -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Молния">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Нара -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Нара">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Наруто -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Наруто">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+        <Владеет_техниками_стихии rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ветер"/>
+        <Имеет_звание rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Генин"/>
+        <Является_членом rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Удзумаке"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Облаков -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Облаков">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+        <Владеет rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Восьмихвостый"/>
+        <Защищает rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Молнии"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Огня -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Огня">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Страна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Огонь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Огонь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Стихия_техник"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Однохвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Однохвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ононоки -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ононоки">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Песка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Песка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+        <Владеет rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Однохвостый"/>
+        <Защищает rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ветра"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Пятихвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Пятихвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Саске -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Саске">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+        <Владеет_техниками_стихии rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Молния"/>
+        <Владеет_техниками_стихии rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Огонь"/>
+        <Имеет_звание rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Генин"/>
+        <Является_членом rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Учиха"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Семихвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Семихвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Сэнжу -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Сэнжу">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Трёххвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Трёххвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Тумана -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Тумана">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Скрытая_деревня"/>
+        <Владеет rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Семихвостый"/>
+        <Защищает rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Воды"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Удзумаке -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Удзумаке">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ученик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ученик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Учиха -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Учиха">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Хината -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Хината">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+        <Владеет_техниками_стихии rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ветер"/>
+        <Имеет_звание rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Джонин"/>
+        <Является_членом rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Хьюго"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Хьюго -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Хьюго">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Клан"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Четыреххвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Четыреххвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Чунин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Чунин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Звание"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Шестихвостый -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Шестихвостый">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Бидзю"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Шикамару -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Шикамару">
+        <rdf:type rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Ниндзя"/>
+        <Имеет_звание rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Джонин"/>
+        <Является_членом rdf:resource="http://www.semanticweb.org/erwineugenrommel/ontologies/2020/9/AI_Lab3_dlya_romi#Нара"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
